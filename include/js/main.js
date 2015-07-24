@@ -77,9 +77,9 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image05.png', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image06.png', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image07.png', thumb : '', url : ''} 
+											{image : 'include/img/slider-images/image05.png', thumb : '', url : ''},
+											{image : 'include/img/slider-images/image06.png', thumb : '', url : ''},
+											{image : 'include/img/slider-images/image07.png', thumb : '', url : ''} 
 									],
 									
 		// Theme Options			   
@@ -404,7 +404,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js', 
+		nope: 'include/js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
